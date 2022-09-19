@@ -1,0 +1,129 @@
+
+/*-------------------------header--------------------------*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 1200px;
+    margin-left: 360px;
+}
+
+nav h1 {
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.caja1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.caja2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+
+header button {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    font-size: 26px;
+}
+
+header button:hover {
+    background-color: rgba(100, 95, 95, 0.589);
+}
+
+.caja2 #Calendar {
+    margin-left: 50px;
+}
+
+/*---------------------------------------body------------------------------*/
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 650px;
+}
+
+input {
+    font-size: 20px;
+    width: 600px;
+    height: 170px;
+    margin-top: 15px;
+    background-color: rgba(235, 232, 232, 0.514);
+    border-color: rgba(226, 224, 224, 0);
+}
+
+.input button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: rgb(4, 182, 206);
+    border-color: rgba(0, 110, 255, 0);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+.input button:hover{
+    background-color: rgb(0, 110, 255);
+}
+
+/*---------main_container---------------------*/
+
+.cuerpo {
+    margin-top: 50px;
+
+}
+
+.main_container {
+    width: 600px;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
+
+.main_container p{
+    font-size: 20px;
+}
+
+.caja_text {
+    margin-top: 90px;
+}
+
+/*------footer-----------*/
+
+
+footer {
+    height: 170px;
+    background-color: rgb(38, 40, 51);
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_box {
+    margin-top: 10px;
+    margin-left: 38rem;
+}
+
+.footer_box p {
+    font-size: 17px;
+    color: white;
+}
